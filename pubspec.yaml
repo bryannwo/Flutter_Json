@@ -1,0 +1,30 @@
+name: final_app
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter  
+  cupertino_icons: ^0.1.2
+  http: ^0.12.0+2 
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+# The following section is specific to Flutter.
+flutter:
+  assets:
+  - assets/udla.png #declare only image
+  - assets/dart.jfif #declare only image
+  - assets/flutter.jpg #declare only image
+  - assets/VC.jpg #declare only image
+  
+  uses-material-design: true
+
+
